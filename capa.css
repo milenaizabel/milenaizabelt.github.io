@@ -1,0 +1,141 @@
+
+html,body{
+    margin: 0;
+
+}
+
+header{
+    background-color: black;
+    color:white;
+    height:25%;
+    width:100%;
+    position: fixed;
+    z-index:10;
+
+}
+#logo{
+    width:10%;
+   position: absolute;
+   top:10px;
+   margin-left:5% ;
+   
+
+
+}
+#menu{
+    float: right;
+    margin-right:5% ;
+    list-style:none;
+    margin-top:0px;
+
+}
+.osli{
+    float:left;
+    padding:20 10 20 10;
+}
+.osli:hover{
+    background-color:green;
+}
+body { 
+    font-size:20px;
+}
+#imagem_fundo{
+background:url("piso.png");
+height:100% ;
+text-align:center;
+background-size:cover;
+
+}
+#título{
+    color:white;
+    padding-top:20%;
+    font-size:60px;
+}
+#subtítulo{
+    color:white;
+    padding-left:20%;
+    padding-right:20%;
+}
+#ação{
+    color:white;
+    border:2px white solid;
+    padding:10px 20px 10px 20px;
+}
+
+.ícone{
+width:150px;
+
+float:left;
+
+
+}
+#projeto{
+text-align:center;
+}
+#desenvolvimento{
+    width:60%;
+    height:30%;
+    padding-left:20% ;
+}
+#ecoponto{
+    text-align: center;
+    padding:20px ;
+}
+#análise{
+    width:50%;
+    height:30%;
+}
+
+#imagem{
+    width:50%;
+    height:70%;
+    margin-left:25%;
+   
+}
+#text{
+    text-indent:20px;
+
+}
+
+p{ 
+    text-align: justify;
+    text-shadow:1px 1px 1px black;
+}
+#problema{
+ 
+font-size:25px;
+
+}
+
+
+#sobremim{
+    width:70%;
+
+
+
+}
+#sobre{
+    text-align:justify;
+   
+   
+}
+.colunadois{
+float:left;
+padding:0 5%;
+position:relative;
+width:35%;
+}
+.jutificado{
+ text-align: justify;
+}
+
+h3,h4{
+    text-align:center;
+}
+footer{
+background-color:green;
+float: left;
+width:100%;
+text-align:center;
+}
+}
